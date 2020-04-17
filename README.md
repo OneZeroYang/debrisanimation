@@ -1,7 +1,7 @@
 效果图：
 
 
-![gif](https://github.com/OneZeroYang/debrisanimation/blob/master/app/src/main/res/drawable/ic_1.gif)
+![image](https://github.com/OneZeroYang/debrisanimation/blob/master/app/src/main/res/drawable/ic_1.gif)
 
 https://github.com/OneZeroYang/debrisanimation/blob/master/app/src/main/res/drawable/ic_1.gif
 
