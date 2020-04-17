@@ -1,21 +1,16 @@
 package com.ysj.debrisanimation;
 
-import android.app.Activity;
+
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import android.os.Build;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
-
 import androidx.annotation.Nullable;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -163,7 +158,6 @@ public class PageAnimationView extends View {
                 new Thread(dat).start();
                 super.onDraw(canvas);
             }
-
 
         } else {
             x = getWidth() / 10;
@@ -460,6 +454,10 @@ public class PageAnimationView extends View {
                 }
             }
 
+
+            /**
+             * 第五阶段平移
+             */
             double time8 = 0.01;
             for (double a = 0; a <= time8; a += 0.001) {
                 try {
